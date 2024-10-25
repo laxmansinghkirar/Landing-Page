@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f3f3f3;
+  }
+  
+  header {
+    background: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .cta {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .cta:hover {
+    background: #0056b3;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 20px;
+    background-color: #f0f8ff;
+  }
+  
+  .hero-content {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .hero-image {
+    flex: 1;
+    height: 400px;
+    background: url('./Untitled-design-15.jpg') no-repeat center center/cover;
+    border-radius: 8px;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 20px;
+    background-color: #fefefe;
+  }
+  
+  .about-text {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .about-image {
+    flex: 1;
+    height: 400px;
+    background: url('./Landing-Page.png') no-repeat center center/cover;
+    border-radius: 8px;
+  }
+  
+  /* Benefits Section */
+  .features {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f0f8ff;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .features-box {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  /* Contact Section */
+  .contact {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fefefe;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .contact input, .contact textarea, .contact button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contact button {
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background: #0056b3;
+  }
+  .footer{
+    height: 117px;
+    background-color:#101314 ;
+    color: #e5f4e3;
+    text-align: center;
+   line-height: 118px;
+  }
+ 
